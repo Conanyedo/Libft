@@ -6,12 +6,11 @@
 /*   By: ybouddou <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/19 23:30:12 by ybouddou          #+#    #+#             */
-/*   Updated: 2019/12/08 15:20:56 by ybouddou         ###   ########.fr       */
+/*   Updated: 2019/12/30 21:15:16 by ybouddou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
 
 static int		ft_intlen(int n, int sign)
 {
@@ -61,9 +60,4 @@ char			*ft_itoa(int n)
 	nlen = ft_intlen(n, sign);
 	a = ft_convert(nlen, sign, n);
 	return (a);
-}
-
-int		main()
-{
-	printf("itoa : %s", ft_itoa(3000000000));
 }
