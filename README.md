@@ -57,3 +57,6 @@ Libft is a School 42 project. The purpose of this project is to create our own C
 - `cd` into the directory and run `make`.
 - `make bonus` for the bonus part.
 - create a `main.c` file and include `Libft.h` to test the functions.
+```bash
+gcc main.c libft.a
+```
