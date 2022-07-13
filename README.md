@@ -1,5 +1,5 @@
 # Libft
-Libft is a School 42 project. The purpose of this project is to create our own C library.
+Libft is a 42 school project. The purpose of this project is to create our own C library.
 
 #  Libc functions
 
